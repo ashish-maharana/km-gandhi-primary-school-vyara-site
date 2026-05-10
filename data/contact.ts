@@ -4,12 +4,12 @@ import type { HeroContent } from "@/lib/types";
 // Content verification checklist:
 // - Confirm official admission desk timings, phone numbers, and map pin.
 export const contactHero: HeroContent = {
-  eyebrow: "Contact K.M. Gandhi Primary School",
-  title: "Visit, Ask, Confirm.",
-  description: "Reach the school office for admission guidance and official school information.",
+  eyebrow: "સંપર્ક | K.M. Gandhi Primary School",
+  title: "મુલાકાત કરો, પૂછો, પુષ્ટિ કરો.",
+  description: "Admissions માર્ગદર્શન અને અધિકૃત શાળા માહિતી માટે શાળા કચેરીનો સંપર્ક કરો.",
   imageSrc: placeholderAssets.contact,
-  imageAlt: "Placeholder school contact visual",
+  imageAlt: "પ્લેસહોલ્ડર: શાળા સંપર્ક દ્રશ્ય",
   primaryCta: { label: "Admissions", href: "/admissions" },
-  secondaryCta: { label: "Home", href: "/" },
+  secondaryCta: { label: "મુખ્ય પૃષ્ઠ", href: "/" },
 };
-export const officeHours = ["Office timings to be confirmed", "Please call before visiting"];
+export const officeHours = ["કચેરી સમય પુષ્ટિ બાકી", "મુલાકાત પહેલાં કૃપા કરી કોલ કરો"];

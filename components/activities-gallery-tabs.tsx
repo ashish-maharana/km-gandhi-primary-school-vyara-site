@@ -34,7 +34,7 @@ export function ActivitiesGalleryTabs({ campusItems, schoolTripItems }: Activiti
 
   return (
     <div>
-      <div role="tablist" aria-label="Activities gallery tabs" className="flex flex-wrap items-center gap-3">
+      <div role="tablist" aria-label="પ્રવૃત્તિ ગેલેરી ટૅબ્સ" className="flex flex-wrap items-center gap-3">
         <button
           type="button"
           role="tab"
@@ -46,7 +46,7 @@ export function ActivitiesGalleryTabs({ campusItems, schoolTripItems }: Activiti
             activeTab === "campus" ? "bg-[#ffd84d] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
           }`}
         >
-          Campus Life
+          કેમ્પસ જીવન
         </button>
         <button
           type="button"
@@ -59,7 +59,7 @@ export function ActivitiesGalleryTabs({ campusItems, schoolTripItems }: Activiti
             activeTab === "school-trips" ? "bg-[#2ee881] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
           }`}
         >
-          School Trips
+          શાળા પ્રવાસ
         </button>
       </div>
 

@@ -56,7 +56,7 @@ function Counter({ item }: { item: StatItem }) {
 
 export function StatsStrip({ stats }: { stats: StatItem[] }) {
   return (
-    <section aria-label="School impact highlights" className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <section aria-label="શાળાની મુખ્ય ઝલક" className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
       {stats.map((item) => (
         <Counter key={item.label} item={item} />
       ))}

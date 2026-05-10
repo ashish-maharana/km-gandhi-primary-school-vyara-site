@@ -34,7 +34,7 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
 
   return (
     <section className="section-wrap">
-      <div role="tablist" aria-label="About people sections" className="flex flex-wrap items-center gap-3">
+      <div role="tablist" aria-label="સ્ટાફ વિભાગ ટૅબ્સ" className="flex flex-wrap items-center gap-3">
         <button
           type="button"
           role="tab"
@@ -46,7 +46,7 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
             activeTab === "management" ? "bg-[#ffd84d] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
           }`}
         >
-          Management
+          વ્યવસ્થાપન
         </button>
         <button
           type="button"
@@ -59,7 +59,7 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
             activeTab === "faculty" ? "bg-[#2ee881] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
           }`}
         >
-          Faculty
+          શિક્ષકવૃંદ
         </button>
       </div>
 

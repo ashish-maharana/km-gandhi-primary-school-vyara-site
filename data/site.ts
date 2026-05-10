@@ -23,27 +23,27 @@ export const site: SiteConfig = {
 };
 
 export const navigation: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Academics", href: "/academics" },
-  { label: "Activities", href: "/activities" },
+  { label: "મુખ્ય પૃષ્ઠ", href: "/" },
+  { label: "અમારા વિશે", href: "/about" },
+  { label: "અભ્યાસક્રમ", href: "/academics" },
+  { label: "પ્રવૃત્તિઓ", href: "/activities" },
   { label: "AI Learning", href: "/ai-learning" },
   { label: "Admissions", href: "/admissions" },
-  { label: "Contact", href: "/contact" },
+  { label: "સંપર્ક", href: "/contact" },
 ];
 
 export const footerLinks = {
   quick: navigation,
   admissions: [
-    { label: "Admission Process", href: "/admissions#process" },
-    { label: "Documents", href: "/admissions#documents" },
+    { label: "Admissions પ્રક્રિયા", href: "/admissions#process" },
+    { label: "દસ્તાવેજો", href: "/admissions#documents" },
     { label: "FAQ", href: "/admissions#faq" },
   ],
 };
 
 export const socialLinks = [
-  { platform: "Facebook", url: "https://facebook.com/", ariaLabel: "Follow us on Facebook" },
-  { platform: "Instagram", url: "https://instagram.com/", ariaLabel: "Follow us on Instagram" },
-  { platform: "YouTube", url: "https://youtube.com/", ariaLabel: "Follow us on YouTube" },
+  { platform: "Facebook", url: "https://facebook.com/", ariaLabel: "Facebook પર અમને અનુસરો" },
+  { platform: "Instagram", url: "https://instagram.com/", ariaLabel: "Instagram પર અમને અનુસરો" },
+  { platform: "YouTube", url: "https://youtube.com/", ariaLabel: "YouTube પર અમને જુઓ" },
 ] as const;
 

@@ -1,6 +1,6 @@
 ﻿import { site } from "@/data/site";
 
-const message = "Hi I want to know more about admissions";
+const message = "નમસ્તે, મને Admissions વિશે વધુ માહિતી જોઈએ છે.";
 const whatsappNumber = site.phones[0].replace(/\D/g, "");
 const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
@@ -10,7 +10,7 @@ export function WhatsAppFloat() {
       href={whatsappHref}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat on WhatsApp"
+      aria-label="WhatsApp પર ચેટ કરો"
       className="fixed bottom-6 right-6 z-[80] inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_16px_34px_rgba(37,211,102,0.35)] transition hover:scale-110 hover:bg-[#1ebe5d] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#25D366]/35 focus-visible:ring-offset-4 focus-visible:ring-offset-white sm:bottom-8 sm:right-8"
     >
       <svg

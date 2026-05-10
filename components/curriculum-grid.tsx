@@ -2,12 +2,12 @@
 import type { CurriculumCardItem } from "@/lib/types";
 
 const skillTags: Record<string, string[]> = {
-  "Computer Science": ["Logic", "Digital", "Problem Solving"],
-  "Primary Education": ["Literacy", "Numeracy", "Foundation"],
-  Science: ["Inquiry", "Experiment", "Discovery"],
-  "Public Speaking": ["Confidence", "Expression", "Stage Skill"],
-  Mathematics: ["Reasoning", "Concepts", "Application"],
-  Languages: ["Reading", "Writing", "Communication"],
+  "Computer Science": ["લોજિક", "ડિજિટલ", "સમस्या ઉકેલ"],
+  "Primary Education": ["સાક્ષરતા", "ગણિત આધાર", "આધાર"],
+  Science: ["તપાસ", "પ્રયોગ", "શોધ"],
+  "Public Speaking": ["આત્મવિશ્વાસ", "અભિવ્યક્તિ", "મંચ કૌશલ્ય"],
+  Mathematics: ["તર્ક", "ધારણાઓ", "અનુપ્રયોગ"],
+  Languages: ["વાંચન", "લખાણ", "સંચાર"],
 };
 
 export function CurriculumGrid({ items }: { items: CurriculumCardItem[] }) {
@@ -29,7 +29,7 @@ export function CurriculumGrid({ items }: { items: CurriculumCardItem[] }) {
             <h3 className="text-xl font-semibold text-[#15112b]">{item.title}</h3>
             <p className="mt-3 text-sm font-medium leading-6 text-[#5b5570]">{item.description}</p>
             <div className="mt-4 flex flex-wrap gap-2 opacity-90 transition group-hover:opacity-100">
-              {(skillTags[item.title] ?? ["Future Ready", "Creative", "Focused"]).map((tag) => (
+              {(skillTags[item.title] ?? ["ભવિષ્ય તૈયાર", "સર્જનાત્મક", "કેન્દ્રિત"]).map((tag) => (
                 <span
                   key={tag}
                   className={`inline-flex -translate-y-1 rounded-full px-2.5 py-1 text-[11px] font-extrabold text-[#15112b] transition duration-300 group-hover:translate-y-0 ${
