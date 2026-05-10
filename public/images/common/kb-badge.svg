@@ -1,0 +1,8 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="140" height="140" rx="36" fill="#6F0B64"/>
+  <path d="M28 112C42 91 58 81 80 81C102 81 118 91 132 112V126H28V112Z" fill="#2EE876"/>
+  <circle cx="80" cy="58" r="32" fill="#FFDF4D"/>
+  <rect x="48" y="44" width="64" height="48" rx="10" fill="white"/>
+  <path d="M60 58H100M60 70H96M60 82H86" stroke="#6F0B64" stroke-width="7" stroke-linecap="round"/>
+  <text x="80" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="white">KB</text>
+</svg>

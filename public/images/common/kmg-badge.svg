@@ -1,0 +1,8 @@
+﻿<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="220" rx="34" fill="#F7F2E8"/>
+  <rect x="16" y="16" width="188" height="188" rx="26" stroke="#14110F" stroke-width="6"/>
+  <circle cx="110" cy="88" r="42" fill="#F8C400"/>
+  <path d="M72 145C82 127 95 118 110 118C125 118 138 127 148 145" stroke="#14110F" stroke-width="8" stroke-linecap="round"/>
+  <text x="110" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#14110F">KMG</text>
+  <text x="110" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#14110F">VYARA</text>
+</svg>

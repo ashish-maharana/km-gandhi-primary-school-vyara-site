@@ -1,0 +1,108 @@
+﻿@import "tailwindcss";
+
+:root {
+  --bg: #d8c99d;
+  --paper: #f7f2e8;
+  --paper-2: #fffaf0;
+  --ink: #14110f;
+  --muted: #61584c;
+  --line: #ded2bb;
+  --gold: #f8c400;
+  --gold-dark: #d9a700;
+  --charcoal: #211b1d;
+  --sage: #6c7a55;
+  --font-heading: "Arial Narrow", "Franklin Gothic Medium", "Segoe UI", sans-serif;
+  --font-body: "Segoe UI", "Trebuchet MS", sans-serif;
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+}
+
+* { box-sizing: border-box; scroll-behavior: smooth; }
+html { scroll-padding-top: 110px; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--bg);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.055em;
+  color: var(--ink);
+}
+
+.site-shell {
+  width: min(100%, 1500px);
+  margin: 0 auto;
+  background: var(--paper);
+  border: 14px solid #fffaf0;
+  box-shadow: 0 30px 90px rgba(20, 17, 15, 0.16);
+}
+
+.section-pad { padding: clamp(3rem, 7vw, 7rem) clamp(1.25rem, 5vw, 5rem); }
+.section-tight { padding: clamp(2rem, 4vw, 4rem) clamp(1.25rem, 5vw, 5rem); }
+.eyebrow { display: inline-flex; align-items: center; gap: .45rem; font-size: .68rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); }
+.eyebrow::before { content: ""; width: .38rem; height: .38rem; border-radius: 999px; background: var(--gold); }
+
+.btn-primary, .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .55rem;
+  padding: .78rem 1.05rem;
+  font-size: .78rem;
+  font-weight: 800;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.btn-primary { background: var(--gold); color: var(--ink); box-shadow: 0 12px 24px rgba(248, 196, 0, .24); }
+.btn-secondary { border: 1px solid rgba(20,17,15,.25); color: var(--ink); background: rgba(255,255,255,.3); }
+.btn-primary:hover, .btn-secondary:hover { transform: translateY(-2px); }
+
+.glass-nav {
+  background: rgba(33, 27, 29, .63);
+  color: #fff;
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,.22);
+  box-shadow: 0 18px 50px rgba(20,17,15,.22);
+}
+
+.hero-panel {
+  min-height: 820px;
+  position: relative;
+  overflow: hidden;
+  background: #ddd0b2;
+}
+.hero-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(247,242,232,.92) 0%, rgba(247,242,232,.58) 38%, rgba(247,242,232,.06) 72%);
+  pointer-events: none;
+}
+.hero-copy { position: relative; z-index: 2; max-width: 620px; padding: clamp(9rem, 16vw, 18rem) clamp(1.5rem, 8vw, 7rem) 4rem; }
+.hero-title { font-size: clamp(3.2rem, 9vw, 8.8rem); line-height: .86; font-weight: 900; }
+.hero-desc { margin-top: 1.25rem; max-width: 490px; color: var(--muted); font-weight: 600; line-height: 1.8; }
+
+.editorial-title { font-size: clamp(2.3rem, 5vw, 5.2rem); line-height: .9; font-weight: 900; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; }
+.paper-card { background: rgba(255,255,255,.46); border: 1px solid rgba(20,17,15,.08); border-radius: .8rem; padding: 1.4rem; box-shadow: 0 18px 42px rgba(20,17,15,.06); }
+.image-card { position: relative; overflow: hidden; border-radius: .75rem; min-height: 320px; background: #d6c9ae; }
+.image-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 35%, rgba(20,17,15,.76)); }
+.image-card-content { position: absolute; z-index: 2; left: 1.2rem; right: 1.2rem; bottom: 1.2rem; color: white; }
+.gold-band { background: linear-gradient(135deg, #ffd943, #e8bd13); color: var(--ink); }
+.dark-footer { background: var(--charcoal); color: #f7f2e8; }
+.dark-footer h3, .dark-footer h4 { color: #fffaf0; }
+
+.faq-item { border: 1px solid rgba(20,17,15,.14); border-radius: .8rem; background: rgba(255,255,255,.58); overflow: hidden; }
+.faq-item summary { cursor: pointer; padding: 1rem 1.2rem; font-weight: 800; }
+.faq-item p { padding: 0 1.2rem 1.1rem; color: var(--muted); font-weight: 600; line-height: 1.7; }
+
+input, textarea { font: inherit; }
+@media (max-width: 760px) {
+  .site-shell { border-width: 7px; }
+  .hero-panel { min-height: 680px; }
+  .hero-copy { padding-top: 7rem; }
+}
