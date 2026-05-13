@@ -15,7 +15,7 @@ export default function AboutPage() {
     </section>
     <section className="section-tight grid gap-5 md:grid-cols-4">{[["ગુજરાતી", "માધ્યમ"], ["સહ-શિક્ષણ", "પ્રકાર"], ["1964", "સ્થાપના"], ["વ્યારા", "સ્થાન"]].map(([a,b]) => <div className="paper-card" key={b}><p className="text-4xl font-black">{a}</p><p className="mt-2 text-xs font-bold text-[var(--muted)]">{b}</p></div>)}</section>
     <section className="section-pad grid gap-10 lg:grid-cols-2 lg:items-center"><Image src={placeholderAssets.values} alt="પ્લેસહોલ્ડર: મૂલ્યો" width={760} height={560} className="rounded-xl" /><div><p className="eyebrow">મૂલ્યો</p><h2 className="editorial-title mt-4">સરળતા, શિસ્ત, આત્મવિશ્વાસ, સમુદાય.</h2><div className="mt-8 grid gap-4 sm:grid-cols-2">{["માન", "સારી ટેવો", "ભાષા સ્પષ્ટતા", "ભાગીદારી"].map((x) => <div className="paper-card" key={x}><h3 className="text-2xl font-black">{x}</h3><p className="mt-2 text-sm font-semibold leading-6 text-[var(--muted)]">શાળાનું મૂલ્ય જે રોજિંદા વર્ગખંડમાં વર્તન અને વિદ્યાર્થી વિકાસમાં દેખાય છે.</p></div>)}</div></div></section>
-    <CTASection variant="gandhi-ref" title="મુલાકાત કરો, પૂછો અને વિગતો પુષ્ટિ કરો." description="અધિકૃત વિગતો એકત્ર થતી રહે ત્યાં સુધી આ સાઇટને પ્રીમિયમ શાળા-પ્રોફાઇલ ડ્રાફ્ટ તરીકે ઉપયોગ કરો." primary={{ label: "શાળાનો સંપર્ક", href: "/contact" }} secondary={{ label: "Admissions", href: "/admissions" }} />
+    <CTASection variant="gandhi-ref" title="મુલાકાત કરો, પૂછો અને વિગતો પુષ્ટિ કરો." description="અધિકૃત વિગતો એકત્ર થતી રહે ત્યાં સુધી આ સાઇટને પ્રીમિયમ શાળા-પ્રોફાઇલ ડ્રાફ્ટ તરીકે ઉપયોગ કરો." primary={{ label: "શાળાનો સંપર્ક", href: "/contact" }} secondary={{ label: "એડમિશન", href: "/admissions" }} />
   </>;
 }
 

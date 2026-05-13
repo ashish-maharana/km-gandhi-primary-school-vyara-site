@@ -85,17 +85,17 @@ export type CoCurricularItem = {
   description: string;
 };
 
-export type AdmissionsFormField = {
+export type એડમિશનFormField = {
   label: string;
   name: string;
   type: "text" | "email";
   placeholder: string;
 };
 
-export type AdmissionsUpdatesContent = {
+export type એડમિશનUpdatesContent = {
   title: string;
   description: string;
-  fields: AdmissionsFormField[];
+  fields: એડમિશનFormField[];
   message: { label: string; name: string; placeholder: string };
   submitLabel: string;
 };

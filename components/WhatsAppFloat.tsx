@@ -1,6 +1,6 @@
 ﻿import { site } from "@/data/site";
 
-const message = "નમસ્તે, મને Admissions વિશે વધુ માહિતી જોઈએ છે.";
+const message = "નમસ્તે, મને એડમિશન વિશે વધુ માહિતી જોઈએ છે.";
 const whatsappNumber = site.phones[0].replace(/\D/g, "");
 const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 

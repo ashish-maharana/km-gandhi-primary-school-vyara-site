@@ -83,10 +83,10 @@ h1, h2, h3, h4 {
   pointer-events: none;
 }
 .hero-copy { position: relative; z-index: 2; max-width: 680px; padding: clamp(7rem, 10vw, 10rem) clamp(1.5rem, 8vw, 7rem) 3.25rem; }
-.hero-title { font-size: clamp(3rem, 7.4vw, 7rem); line-height: .88; font-weight: 900; }
+.hero-title { font-size: clamp(3rem, 7.4vw, 7rem); line-height: 1.15; font-weight: 900; }
 .hero-desc { margin-top: 1.25rem; max-width: 490px; color: var(--muted); font-weight: 600; line-height: 1.8; }
 
-.editorial-title { font-size: clamp(2.3rem, 5vw, 5.2rem); line-height: .9; font-weight: 900; }
+.editorial-title { font-size: clamp(2.3rem, 5vw, 5.2rem); line-height: 1.12; font-weight: 900; }
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; }
 .paper-card { background: rgba(255,255,255,.46); border: 1px solid rgba(20,17,15,.08); border-radius: .8rem; padding: 1.4rem; box-shadow: 0 18px 42px rgba(20,17,15,.06); }
 .image-card { position: relative; overflow: hidden; border-radius: .75rem; min-height: 320px; background: #d6c9ae; }

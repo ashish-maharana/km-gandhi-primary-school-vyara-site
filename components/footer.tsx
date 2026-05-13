@@ -25,7 +25,7 @@ export function Footer() {
           <div className="mt-4 grid gap-3">{footerLinks.quick.slice(0, 5).map((link) => <Link key={link.href} href={link.href} className="text-sm font-semibold text-white/58 hover:text-white">{link.label}</Link>)}</div>
         </div>
         <div>
-          <h4 className="text-sm font-black">Admissions</h4>
+          <h4 className="text-sm font-black">એડમિશન</h4>
           <div className="mt-4 grid gap-3">{footerLinks.admissions.map((link) => <Link key={link.href} href={link.href} className="text-sm font-semibold text-white/58 hover:text-white">{link.label}</Link>)}</div>
         </div>
         <div>
