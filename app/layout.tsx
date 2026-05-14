@@ -6,7 +6,7 @@ import { RouteScrollReset } from "@/components/route-scroll-reset";
 import { ScrollProgress } from "@/components/scroll-progress";
 
 export const metadata: Metadata = {
-  title: "K.M. Gandhi Primary School | વ્યારા",
+  title: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા | વ્યારા",
   description: "વ્યારા, તાપી, ગુજરાત ખાતેનું ગુજરાતી-માધ્યમ સહ-શિક્ષણ પ્રાથમિક તથા ઉચ્ચ-પ્રાથમિક શાળાનું વેબસાઇટ કૉન્સેપ્ટ.",
 };
 

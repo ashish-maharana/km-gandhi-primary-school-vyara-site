@@ -4,7 +4,7 @@ import { PageHero } from "@/components/page-hero";
 import { placeholderAssets } from "@/data/placeholders";
 import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata = createPageMetadata({ title: "પ્રવૃત્તિઓ | K.M. Gandhi Primary School", description: "પ્રવૃત્તિઓ, રમતગમત, સાંસ્કૃતિક કાર્યક્રમો અને વિદ્યાર્થીઓનો આત્મવિશ્વાસ.", path: "/activities" });
+export const metadata = createPageMetadata({ title: "પ્રવૃત્તિઓ | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા", description: "પ્રવૃત્તિઓ, રમતગમત, સાંસ્કૃતિક કાર્યક્રમો અને વિદ્યાર્થીઓનો આત્મવિશ્વાસ.", path: "/activities" });
 const cards = [["રમતગમત અને મેદાન", placeholderAssets.playground], ["સભા અને કાર્યક્રમો", placeholderAssets.assembly], ["વાંચન ક્ષણો", placeholderAssets.study]];
 export default function ActivitiesPage() {
   return <>

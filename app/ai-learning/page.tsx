@@ -4,7 +4,7 @@ import { PageHero } from "@/components/page-hero";
 import { placeholderAssets } from "@/data/placeholders";
 import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata = createPageMetadata({ title: "AI લર્નિંગ | K.M. Gandhi Primary School", description: "ગુજરાતી-માધ્યમ વિદ્યાર્થીઓ માટે કમ્પ્યુટર આધારિત શીખણ અને ભવિષ્ય કુશળતાઓ (પ્રાયોગિક, સાવચેતીપૂર્વક).", path: "/ai-learning" });
+export const metadata = createPageMetadata({ title: "AI લર્નિંગ | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા", description: "ગુજરાતી-માધ્યમ વિદ્યાર્થીઓ માટે કમ્પ્યુટર આધારિત શીખણ અને ભવિષ્ય કુશળતાઓ (પ્રાયોગિક, સાવચેતીપૂર્વક).", path: "/ai-learning" });
 const modules = ["ડિજિટલ આધાર", "દૃશ્ય શીખણ", "ક્વિઝ અને અભ્યાસ", "જવાબદાર ટેકનોલોજી", "માર્ગદર્શિત પ્રોજેક્ટ", "પ્રસ્તુતિ આત્મવિશ્વાસ"];
 export default function AiLearningPage() {
   return <>

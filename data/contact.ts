@@ -4,7 +4,7 @@ import type { HeroContent } from "@/lib/types";
 // Content verification checklist:
 // - Confirm official admission desk timings, phone numbers, and map pin.
 export const contactHero: HeroContent = {
-  eyebrow: "સંપર્ક | K.M. Gandhi Primary School",
+  eyebrow: "સંપર્ક | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
   title: "મુલાકાત કરો, પૂછો, પુષ્ટિ કરો.",
   description: "એડમિશન માર્ગદર્શન અને અધિકૃત શાળા માહિતી માટે શાળા કચેરીનો સંપર્ક કરો.",
   imageSrc: placeholderAssets.contact,

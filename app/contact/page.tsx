@@ -6,7 +6,7 @@ import { placeholderAssets } from "@/data/placeholders";
 import { site } from "@/data/site";
 import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata = createPageMetadata({ title: "સંપર્ક | K.M. Gandhi Primary School", description: "K.M. Gandhi Primary School, વ્યારા (તાપી, ગુજરાત) માટે સંપર્ક માહિતી અને પૂછપરછ.", path: "/contact" });
+export const metadata = createPageMetadata({ title: "સંપર્ક | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા", description: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા, વ્યારા (તાપી, ગુજરાત) માટે સંપર્ક માહિતી અને પૂછપરછ.", path: "/contact" });
 export default function ContactPage() {
   return <>
     <PageHero variant="gandhi-ref" content={{ eyebrow: "સંપર્ક", title: "મુલાકાત કરો, પૂછો, પુષ્ટિ કરો.", description: "એડમિશન માર્ગદર્શન, ક્લાસ ઉપલબ્ધતા, મુલાકાત સમય અને અધિકૃત માહિતી માટે શાળા કચેરીનો સંપર્ક કરો.", imageSrc: placeholderAssets.contact, imageAlt: "પ્લેસહોલ્ડર: શાળાનો બહારનો દ્રશ્ય", primaryCta: { label: "એડમિશન પૂછપરછ", href: "/admissions" }, secondaryCta: { label: "અભ્યાસક્રમ", href: "/academics" } }} />

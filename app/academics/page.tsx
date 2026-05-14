@@ -4,7 +4,7 @@ import { PageHero } from "@/components/page-hero";
 import { placeholderAssets } from "@/data/placeholders";
 import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata = createPageMetadata({ title: "અભ્યાસક્રમ | K.M. Gandhi Primary School", description: "પ્રાથમિક અને ઉચ્ચ-પ્રાથમિક માટે ગુજરાતી-માધ્યમ અભ્યાસક્રમ અને શીખણ દિશા.", path: "/academics" });
+export const metadata = createPageMetadata({ title: "અભ્યાસક્રમ | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા", description: "પ્રાથમિક અને ઉચ્ચ-પ્રાથમિક માટે ગુજરાતી-માધ્યમ અભ્યાસક્રમ અને શીખણ દિશા.", path: "/academics" });
 const subjects = ["ગુજરાતી ભાષા", "ગણિત", "પર્યાવરણ અભ્યાસ", "હિન્દી અને અંગ્રેજી આધાર", "સામાજિક સમજણ", "કમ્પ્યુટર આધારિત શીખણ"];
 export default function AcademicsPage() {
   return <>

@@ -3,7 +3,7 @@ import { PageHero } from "@/components/page-hero";
 import { placeholderAssets } from "@/data/placeholders";
 import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata = createPageMetadata({ title: "એડમિશન | K.M. Gandhi Primary School", description: "K.M. Gandhi Primary School, વ્યારા માટે એડમિશન પૂછપરછ અને પ્રક્રિયા માર્ગદર્શન.", path: "/admissions" });
+export const metadata = createPageMetadata({ title: "એડમિશન | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા", description: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા, વ્યારા માટે એડમિશન પૂછપરછ અને પ્રક્રિયા માર્ગદર્શન.", path: "/admissions" });
 const steps = ["વિનંતી", "શાળા મુલાકાત", "દસ્તાવેજ ચકાસણી", "દાખલા માર્ગદર્શન"];
 const docs = ["જન્મ પ્રમાણપત્રની નકલ", "જો લાગુ પડે તો અગાઉની શાળાનો રેકોર્ડ", "વિદ્યાર્થીના ફોટા", "વાલી ઓળખ/સરનામું પુરાવો", "જરૂરી તબીબી માહિતી (જો હોય તો)"];
 export default function AdmissionsPage() {

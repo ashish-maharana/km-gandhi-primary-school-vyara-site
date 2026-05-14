@@ -6,7 +6,7 @@ import { placeholderAssets } from "@/data/placeholders";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "મુખ્ય પૃષ્ઠ | K.M. Gandhi Primary School",
+  title: "મુખ્ય પૃષ્ઠ | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
   description: "વ્યારા, તાપી, ગુજરાત ખાતેનું ગુજરાતી-માધ્યમ સહ-શિક્ષણ પ્રાથમિક તથા ઉચ્ચ-પ્રાથમિક શાળાનું પરિચય પૃષ્ઠ.",
   path: "/",
 });
@@ -14,7 +14,7 @@ export const metadata = createPageMetadata({
 const hero = {
   eyebrow: "1964 થી ગુજરાતી-માધ્યમ શિક્ષણ",
   title: "મૂલ્યોમાં જડેલું, ઉજ્જવળ ભવિષ્ય.",
-  description: "K.M. Gandhi Primary School, વ્યારા ખાતે શિક્ષણ ગુજરાતી-માધ્યમ સ્પષ્ટતા, શિસ્ત, સમુદાયનો વિશ્વાસ અને મજબૂત આધાર પર કેન્દ્રિત છે.",
+  description: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા, વ્યારા ખાતે શિક્ષણ ગુજરાતી-માધ્યમ સ્પષ્ટતા, શિસ્ત, સમુદાયનો વિશ્વાસ અને મજબૂત આધાર પર કેન્દ્રિત છે.",
   imageSrc: placeholderAssets.hero,
   imageAlt: "પ્લેસહોલ્ડર: વિદ્યાર્થી અભ્યાસ કરે છે",
   primaryCta: { label: "એડમિશન પૂછપરછ", href: "/admissions" },

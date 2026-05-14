@@ -1,7 +1,7 @@
 ﻿# K.M. Gandhi Primary School Website
 
 Static Next.js (App Router) + Tailwind CSS website for:
-- K.M. Gandhi Primary School
+- શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા
 - Vyara, Tapi, Gujarat, India
 
 ## Stack

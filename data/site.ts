@@ -1,8 +1,8 @@
 ﻿import type { NavItem, SiteConfig } from "@/lib/types";
 
 export const site: SiteConfig = {
-  name: "K.M. Gandhi Primary School",
-  shortName: "K.M. Gandhi",
+  name: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
+  shortName: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
   location: "વ્યારા, તાપી, ગુજરાત",
   email: "admissions@kmgandhischoolvyara.in",
   phones: ["+91 98765 43210", "+91 02626 000000"],
