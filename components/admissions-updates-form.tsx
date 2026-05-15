@@ -7,7 +7,7 @@ export function AdmissionsUpdatesForm({ content }: { content: AdmissionsUpdatesC
         <h2 className="text-3xl font-semibold leading-tight text-white sm:text-5xl">{content.title}</h2>
         <p className="mt-4 text-sm font-semibold leading-7 text-white/85">{content.description}</p>
 
-        <form action="#" className="mt-7 space-y-3" aria-label="એડમિશન and updates subscription form">
+        <form action="#" className="mt-7 space-y-3" aria-label="Admissions and updates subscription form">
           {content.fields.map((field) => (
             <label key={field.name} className="block">
               <span className="sr-only">{field.label}</span>
