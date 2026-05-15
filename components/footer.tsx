@@ -6,13 +6,13 @@ import { placeholderAssets } from "@/data/placeholders";
 export function Footer() {
   return (
     <footer className="dark-footer section-tight">
-      <div className="grid gap-10 lg:grid-cols-[1.3fr_.7fr_.7fr_.7fr]">
+      <div className="grid gap-10 lg:grid-cols-[1.5fr_.6fr_.6fr_.6fr]">
         <div>
           <div className="flex items-center gap-3">
             <Image src={placeholderAssets.logo} alt="K.M. ગાંધી લોગો પ્લેસહોલ્ડર" width={42} height={42} className="rounded-lg bg-[#f7f2e8]" />
             <h3 className="text-2xl font-black tracking-tight">{site.name}</h3>
           </div>
-          <p className="mt-5 max-w-sm text-sm font-semibold leading-7 text-white/66">
+          <p className="mt-5 max-w-md text-sm font-semibold leading-7 text-white/66">
             વ્યારા ખાતેનું ગુજરાતી-માધ્યમ શિક્ષણ શિસ્ત, મૂલ્યો, વર્ગખંડમાં આત્મવિશ્વાસ અને ધીમે ધીમે મજબૂત આધાર બાંધવા પર કેન્દ્રિત છે.
           </p>
           <form className="mt-6 flex max-w-md gap-2" action="#">
@@ -25,7 +25,7 @@ export function Footer() {
           <div className="mt-4 grid gap-3">{footerLinks.quick.slice(0, 5).map((link) => <Link key={link.href} href={link.href} className="text-sm font-semibold text-white/58 hover:text-white">{link.label}</Link>)}</div>
         </div>
         <div>
-          <h4 className="text-sm font-black">Admissions</h4>
+          <h4 className="text-sm font-black">એડમિશન</h4>
           <div className="mt-4 grid gap-3">{footerLinks.admissions.map((link) => <Link key={link.href} href={link.href} className="text-sm font-semibold text-white/58 hover:text-white">{link.label}</Link>)}</div>
         </div>
         <div>

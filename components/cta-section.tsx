@@ -14,7 +14,7 @@ export function CTASection({ title, description, primary, secondary, variant = "
     <section className={cls}>
       <div className="grid gap-8 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
         <div>
-          <p className="eyebrow">Admissions</p>
+          <p className="eyebrow">એડમિશન</p>
           <h2 className="editorial-title mt-4">{title}</h2>
         </div>
         <div>

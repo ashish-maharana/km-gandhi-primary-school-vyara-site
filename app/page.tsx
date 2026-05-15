@@ -6,7 +6,7 @@ import { placeholderAssets } from "@/data/placeholders";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "મુખ્ય પૃષ્ઠ | K.M. Gandhi Primary School",
+  title: "મુખ્ય પૃષ્ઠ | શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
   description: "વ્યારા, તાપી, ગુજરાત ખાતેનું ગુજરાતી-માધ્યમ સહ-શિક્ષણ પ્રાથમિક તથા ઉચ્ચ-પ્રાથમિક શાળાનું પરિચય પૃષ્ઠ.",
   path: "/",
 });
@@ -14,10 +14,10 @@ export const metadata = createPageMetadata({
 const hero = {
   eyebrow: "1964 થી ગુજરાતી-માધ્યમ શિક્ષણ",
   title: "મૂલ્યોમાં જડેલું, ઉજ્જવળ ભવિષ્ય.",
-  description: "K.M. Gandhi Primary School, વ્યારા ખાતે શિક્ષણ ગુજરાતી-માધ્યમ સ્પષ્ટતા, શિસ્ત, સમુદાયનો વિશ્વાસ અને મજબૂત આધાર પર કેન્દ્રિત છે.",
+  description: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા, વ્યારા ખાતે શિક્ષણ ગુજરાતી-માધ્યમ સ્પષ્ટતા, શિસ્ત, સમુદાયનો વિશ્વાસ અને મજબૂત આધાર પર કેન્દ્રિત છે.",
   imageSrc: placeholderAssets.hero,
   imageAlt: "પ્લેસહોલ્ડર: વિદ્યાર્થી અભ્યાસ કરે છે",
-  primaryCta: { label: "Admissions પૂછપરછ", href: "/admissions" },
+  primaryCta: { label: "એડમિશન પૂછપરછ", href: "/admissions" },
   secondaryCta: { label: "વધુ જાણો", href: "/about" },
 };
 
@@ -61,7 +61,7 @@ export default function HomePage() {
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-3">{programs.map(([title, text, image]) => <article key={title} className="image-card"><Image src={image} alt={`પ્લેસહોલ્ડર: ${title}`} fill className="object-cover" /><div className="image-card-content"><h3 className="text-2xl font-black text-white">{title}</h3><p className="mt-2 text-sm font-semibold text-white/78">{text}</p><Link href="/academics" className="mt-4 inline-flex text-xs font-black text-[var(--gold)]">વધુ જાણો</Link></div></article>)}</div>
       </section>
-      <CTASection variant="gandhi-ref" title="આજે Admissions અંગે વાતચીત શરૂ કરો" description="હાલની ક્લાસ ઉપલબ્ધતા, મુલાકાત માર્ગદર્શન, દસ્તાવેજો અને ગુજરાતી-માધ્યમ અભિગમ વિશે પૂછો." primary={{ label: "Admissions જુઓ", href: "/admissions" }} secondary={{ label: "શાળાનો સંપર્ક", href: "/contact" }} />
+      <CTASection variant="gandhi-ref" title="આજે એડમિશન અંગે વાતચીત શરૂ કરો" description="હાલની ક્લાસ ઉપલબ્ધતા, મુલાકાત માર્ગદર્શન, દસ્તાવેજો અને ગુજરાતી-માધ્યમ અભિગમ વિશે પૂછો." primary={{ label: "એડમિશન જુઓ", href: "/admissions" }} secondary={{ label: "શાળાનો સંપર્ક", href: "/contact" }} />
       <section className="section-pad grid gap-10 lg:grid-cols-2 lg:items-center">
         <Image src={placeholderAssets.values} alt="પ્લેસહોલ્ડર: વિદ્યાર્થી અભ્યાસ" width={760} height={520} className="rounded-xl object-cover" />
         <div><p className="eyebrow">મૂલ્યો</p><h2 className="editorial-title mt-4">સરળતા, શિસ્ત અને કાળજી સાથેનું શીખણ.</h2><p className="mt-5 text-sm font-semibold leading-7 text-[var(--muted)]">આ ડિઝાઇન સરળતા, પ્રામાણિક ટાઇપોગ્રાફી અને વ્યવહારુ શાળા-કથન પર આધારિત છે, જેથી માહિતી સ્પષ્ટ અને વિશ્વાસપાત્ર લાગે.</p><Link href="/activities" className="btn-secondary mt-7">વિદ્યાર્થી જીવન જુઓ</Link></div>

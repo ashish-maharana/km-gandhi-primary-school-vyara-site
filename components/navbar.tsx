@@ -26,7 +26,7 @@ export function Navbar() {
             </Link>
           ))}
         </div>
-        <Link href="/admissions" className="hidden rounded-md bg-white px-4 py-2 text-xs font-black text-[#14110f] md:inline-flex">Admissions</Link>
+        <Link href="/admissions" className="hidden rounded-md bg-white px-4 py-2 text-xs font-black text-[#14110f] md:inline-flex">એડમિશન</Link>
         <button className="md:hidden" onClick={() => setOpen((value) => !value)} aria-label="Toggle navigation">
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>

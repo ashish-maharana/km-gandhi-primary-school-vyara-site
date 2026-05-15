@@ -1,12 +1,12 @@
 ﻿import type { NavItem, SiteConfig } from "@/lib/types";
 
 export const site: SiteConfig = {
-  name: "K.M. Gandhi Primary School",
-  shortName: "K.M. Gandhi",
-  location: "Vyara, Tapi, Gujarat",
+  name: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
+  shortName: "શ્રી ખુશાલદાસ મકનદાસ ગાંધી પ્રાથમિક શાળા",
+  location: "વ્યારા, તાપી, ગુજરાત",
   email: "admissions@kmgandhischoolvyara.in",
   phones: ["+91 98765 43210", "+91 02626 000000"],
-  address: "Vyara, Tapi, Gujarat - 394650",
+  address: "વ્યારા, તાપી, ગુજરાત - 394650",
   brand: {
     palette: {
       bg: "#F7F2E8",
@@ -27,15 +27,15 @@ export const navigation: NavItem[] = [
   { label: "અમારા વિશે", href: "/about" },
   { label: "અભ્યાસક્રમ", href: "/academics" },
   { label: "પ્રવૃત્તિઓ", href: "/activities" },
-  { label: "AI Learning", href: "/ai-learning" },
-  { label: "Admissions", href: "/admissions" },
+  { label: "AI લર્નિંગ", href: "/ai-learning" },
+  { label: "એડમિશન", href: "/admissions" },
   { label: "સંપર્ક", href: "/contact" },
 ];
 
 export const footerLinks = {
   quick: navigation,
   admissions: [
-    { label: "Admissions પ્રક્રિયા", href: "/admissions#process" },
+    { label: "એડમિશન પ્રક્રિયા", href: "/admissions#process" },
     { label: "દસ્તાવેજો", href: "/admissions#documents" },
     { label: "FAQ", href: "/admissions#faq" },
   ],
