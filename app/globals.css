@@ -83,8 +83,18 @@ h1, h2, h3, h4 {
   pointer-events: none;
 }
 .hero-copy { position: relative; z-index: 2; max-width: 680px; padding: clamp(7rem, 10vw, 10rem) clamp(1.5rem, 8vw, 7rem) 3.25rem; }
-.hero-title { font-size: clamp(3rem, 7.4vw, 7rem); line-height: 1.15; font-weight: 900; }
+.hero-title { font-size: clamp(2.25rem, 4.9vw, 4.75rem); line-height: 1.12; font-weight: 900; }
 .hero-desc { margin-top: 1.25rem; max-width: 490px; color: var(--muted); font-weight: 600; line-height: 1.8; }
+
+@media (max-width: 1199px) {
+  .hero-title { font-size: clamp(1.7rem, 2.8vw + 1rem, 2.6rem); line-height: 1.14; }
+  .hero-copy {
+    max-width: min(680px, 100%);
+    padding-inline: clamp(1rem, 4.5vw, 1.75rem);
+    padding-top: clamp(5.5rem, 12vw, 7.5rem);
+  }
+  .hero-desc { font-size: 0.94rem; line-height: 1.75; }
+}
 
 .editorial-title { font-size: clamp(2.3rem, 5vw, 5.2rem); line-height: 1.12; font-weight: 900; }
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; }
